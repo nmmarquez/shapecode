@@ -1,0 +1,19 @@
+Package: shapecode
+Type: Package
+Title: Geocode locations while building spatial objects
+Version: 0.1.0
+Author: Neal Marquez
+Maintainer: Neal Marquez <nmarquez@uw.edu>
+Description: Geocodes a string using the OSM API. Has the ability to return
+    additional information such as the geoJSON string and converting the geojson
+    string to a spatial object.
+Depends: R (>= 3.3.0)
+Imports:
+    sp,
+    rgdal,
+    utils,
+    jsonlite
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

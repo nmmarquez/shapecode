@@ -6,7 +6,7 @@
 #'
 #' @param geoJSONstr str, a valid geoJSON string in a character vector of
 #' length 1.
-#' @param ... , additional parameters passed to readOGR
+#' @param ... additional parameters passed to readOGR
 #'
 #' @return A spatial object with class coresponding to the class of the
 #' equivilent geoJSON object type.

@@ -10,7 +10,7 @@
 #' @param geojson bool, should the geoJSON information also be retrieved
 #' @param sp bool, should the geoJSON data be converted to spatial objects
 #' @param verbose bool, verbose argument passed to readOGR
-#' @param ... , additional parameters passed to readOGR
+#' @param ... additional parameters passed to readOGR
 #'
 #' @return A dataframe with the reults from the OSM geotag call.
 #'
